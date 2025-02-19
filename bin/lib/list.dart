@@ -1,4 +1,5 @@
 main(){
-  var list = [1,2,3,4,5];
-  print(list[2]);
+  var list = ['lincon','shoun','bipul','konok','tripti'];
+
+  print(list);
 }
