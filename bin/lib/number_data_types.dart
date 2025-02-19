@@ -1,5 +1,6 @@
 //Number Data Type: Integer & Double
 
+
 void main(){
   var intNumber = 19;
   var doubleNumber = 20.15;
