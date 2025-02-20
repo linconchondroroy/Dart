@@ -3,4 +3,5 @@ main(){
   var list1 = [100,150,300,600,400,858];
   print(list);
   print(list[3]);
+  print(list1);
 }
