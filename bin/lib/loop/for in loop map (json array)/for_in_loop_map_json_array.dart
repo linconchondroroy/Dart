@@ -1,11 +1,11 @@
 void main(){
-  var student =[
-    {'name':'lincon','age':19},
-    {'name':'shoun','age':21},
-    {'name':'bipul','age':23}
+  var productList=[
+    {'name':'sope','price':100},
+    {'name':'milk','price':60},
+    {'name':'fish','price':100}
   ];
-  for(var i in student){
-    var name = i['name'];
-    print(name);
+  for(var oneProduct in productList){
+    var item = 'Product Name is: ${oneProduct['name']} and price is : ${oneProduct['price']} Taka';
+        print(item);
   }
 }
