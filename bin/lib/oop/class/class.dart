@@ -1,6 +1,6 @@
 class MyClass{
-  var MyName = 'Lincon Chondro Roy';
-  var Alphabet =['A','B','C'];
+  var my_name = 'Lincon Chondro Roy';
+  var alphabet =['A','B','C'];
   addTowNumber(int x, int y){
     print(x+y);
   }
@@ -12,6 +12,6 @@ void main(){
   var obj = MyClass();
   obj.addTowNumber(10, 20);
   obj.addThreeNumber(25, 15, 20);
-  print(obj.MyName);
-  print(obj.Alphabet[0]);
+  print(obj.my_name);
+  print(obj.alphabet[1]);
 }
