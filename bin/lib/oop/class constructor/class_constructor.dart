@@ -1,6 +1,5 @@
- class MyClass(){
-
-  MyClass(String msg){
-    print(msg);
+class MyClass{
+  MyClass(){
+    print('I am a constructor');
   }
- }
+}
