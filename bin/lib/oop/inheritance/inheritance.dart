@@ -9,3 +9,7 @@ class Son extends Father {
     print(FatherTitel);
   }
 }
+void main(){
+  var obj = new Son();
+  obj.SonsAsset();
+}
