@@ -8,7 +8,7 @@ class Son extends Father{
     print('Total Amount 50000 Taka');
   }
 }
-void main(){
-  var SonObj=Son();
+void main() {
+  var SonObj = Son();
   SonObj.BaperTaka();
 }
